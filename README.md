@@ -5,8 +5,13 @@ A Reverse Polish Notation calculator.
 ```
 >>> 2 2 +
 4
+>>> 100 76 -
+24.0
+>>> 2 10 ^
+1024.0
 >>> 11 2 * 7 /
 3.142857142857143
+>>>
 ```
 
 # Architecture
