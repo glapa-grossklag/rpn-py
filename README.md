@@ -17,9 +17,9 @@ A Reverse Polish Notation calculator.
 # Architecture
 
 1. The input stream is parsed into tokens.
-	a. Every token is either an operator or an operand.
-	b. All operators are binary operators (i.e., they apply to two operands.)
-	c. All numbers are considered operands, and all operands are stored as
-	   floating-point numbers.
+	- Every token is either an operator or an operand.
+	- All operators are binary operators (i.e., they apply to two operands.)
+	- All numbers are considered operands, and all operands are stored as
+	  floating-point numbers.
 2. The token stream is evaluated using shift-reduce parsing.
 3. The result is displayed.
